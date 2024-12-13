@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ide
+.idea/
+.env
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+src/graphql/generated.ts
+src/graphql/generatedGlobal.typings.ts
+src/graphql/queries/generatedTypes
+schema.json
+
+# misc
+.DS_Store
+
+npm-debug.log*
+/src/graphql/generated.ts
+/schema.graphql
