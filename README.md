@@ -1,6 +1,6 @@
 # Frontend Lab
 
-
+Node 20.11.1
 
 ## Getting started
 
