@@ -55,6 +55,7 @@ module.exports = {
         'array-element-newline': ['error', { multiline: true, minItems: 3 }],
         'brace-style': ['error', '1tbs'],
         curly: ['error', 'all'],
+        'linebreak-style': ["off"],
         'max-depth': ['warn', 2],
         'max-len': ['warn', { code: 130 }],
         'max-lines-per-function': [
