@@ -1,5 +1,5 @@
 // libraries
-import { FC } from 'react';
+import type { FC } from 'react';
 // assets
 import ThumbIcon from 'assets/icons/thumbs_up_icon.svg?react';
 
