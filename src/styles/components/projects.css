@@ -1,0 +1,12 @@
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project-card {
+  width: 100%;
+}
+
+/*# sourceMappingURL=projects.css.map */

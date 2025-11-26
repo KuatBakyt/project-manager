@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Thin.woff2") format("woff2"), url("../../assets/fonts/Inter-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-ExtraLightItalic.woff2") format("woff2"), url("../../assets/fonts/Inter-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Regular.woff2") format("woff2"), url("../../assets/fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-ExtraLight.woff2") format("woff2"), url("../../assets/fonts/Inter-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-ExtraBoldItalic.woff2") format("woff2"), url("../../assets/fonts/Inter-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Italic.woff2") format("woff2"), url("../../assets/fonts/Inter-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-SemiBold.woff2") format("woff2"), url("../../assets/fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Medium.woff2") format("woff2"), url("../../assets/fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-LightItalic.woff2") format("woff2"), url("../../assets/fonts/Inter-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-BoldItalic.woff2") format("woff2"), url("../../assets/fonts/Inter-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-MediumItalic.woff2") format("woff2"), url("../../assets/fonts/Inter-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-SemiBoldItalic.woff2") format("woff2"), url("../../assets/fonts/Inter-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Light.woff2") format("woff2"), url("../../assets/fonts/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-ExtraBold.woff2") format("woff2"), url("../../assets/fonts/Inter-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Black.woff2") format("woff2"), url("../../assets/fonts/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-ThinItalic.woff2") format("woff2"), url("../../assets/fonts/Inter-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Bold.woff2") format("woff2"), url("../../assets/fonts/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-BlackItalic.woff2") format("woff2"), url("../../assets/fonts/Inter-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.kanban-board .kanban-column {
+  flex: 1;
+  min-width: 280px;
+  background: #f5f8fa;
+  padding: 10px;
+  border-radius: 6px;
+}
+.kanban-board .kanban-column h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.task-actions .bp4-button {
+  flex: 1;
+  min-width: 120px;
+  justify-content: center;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project-card {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
